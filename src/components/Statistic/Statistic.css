@@ -1,0 +1,11 @@
+.st-h1{
+    text-align: center;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.chart{
+    text-align: center;
+    margin: 30px;
+}
