@@ -5,6 +5,10 @@ import './App.css';
 function App() {
   const router=createBrowserRouter([
 
+    {
+      path:'/',
+      element:
+    }
   ])
   return (
     <div className="App">
