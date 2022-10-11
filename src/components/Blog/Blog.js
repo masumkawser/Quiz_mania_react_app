@@ -1,9 +1,15 @@
 import React from 'react';
-
+import "./Blog.css";
 const Blog = () => {
     return (
         <div>
-            <h1> this is blog page..</h1>
+           <div>
+           <h1 className='blog-title '> This is Quiz-Mania Blog page ...</h1>
+           </div>
+            <div>q1</div>
+            <div>q2</div>
+            <div>q3</div>
+
         </div>
     );
 };
