@@ -14,7 +14,8 @@ const Blog = () => {
                 <h4>what is the main use of context Api?</h4>
                 <p> The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on</p>
             </div>
-            <div className='blog-question'>q3</div>
+            <div className='blog-question'><h4>why use  ref hook?</h4>
+            <p>Refs provide a way to access DOM nodes or React elements created in the render method. In the typical React dataflow, props are the only way that parent components interact with their children. To modify a child, you re-render it with new props.</p></div>
 
         </div>
     );
