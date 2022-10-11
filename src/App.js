@@ -1,10 +1,14 @@
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 
 function App() {
+  const router=createBrowserRouter([
+
+  ])
   return (
     <div className="App">
-     <h1>this is kawser</h1>
+    <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
