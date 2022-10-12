@@ -1,7 +1,7 @@
 import React from 'react';
 import Answer from '../Answer/Answer';
 import"./Question.css";
-// import { EyeIcon } from '@heroicons/react/24/solid';
+import { EyeIcon } from '@heroicons/react/24/solid';
 const Question = ({questions}) => {
     const { question, id, options, correctAnswer } = questions;
 
@@ -9,10 +9,10 @@ const Question = ({questions}) => {
         const selectedAnswer = event.target.innerText;
 
         if (selectedAnswer === correctAnswer) {
-            alert('Correct');
+            alert(' your answere is Correct !!!');
         }
         else {
-            alert('Incorrect');
+            alert('your answere is Wrong..');
         }
     }
 
@@ -24,7 +24,7 @@ const Question = ({questions}) => {
         <div className='question-container'>
                 <div>
                     <p className='question'>{question}</p>
-                    {/* <EyeIcon onClick={showCorrectAnswer} className="arrow-icon" /> */}
+                    <EyeIcon onClick={showCorrectAnswer} className="arrow-icon" />
                 </div>
                 <div className='answer-container'>
                     {
