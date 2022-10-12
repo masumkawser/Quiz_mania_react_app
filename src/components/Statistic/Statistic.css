@@ -9,3 +9,15 @@
     text-align: center;
     margin: 30px;
 }
+@media only screen and (max-width: 768px){
+    LineChart{
+        width: 25px;
+        height: 25px;
+    }
+}
+.chart {
+   
+    color: red;
+    
+    justify-content: center;
+}
